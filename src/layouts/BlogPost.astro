@@ -115,7 +115,7 @@ const hasImages = Object.keys(imagesGlob).length > 0;
 					</div>
 					<slot />
 					<hr />
-					<Images imagesGlob={imagesGlob} metaYaml={rawYaml} />	
+					{hasImages && <Images imagesGlob={imagesGlob} metaYaml={rawYaml} />}	
 				</div>
 			</article>
 		</main>

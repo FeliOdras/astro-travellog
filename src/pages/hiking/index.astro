@@ -24,7 +24,7 @@ const hikingTrips = await getCollection('trips', ({ data }) => {
       <ul>
         {hikingTrips.map((trip) => (
           <li>
-            <a href={`/trips/${trip.id}`}>
+            <a href={`/astro-travellog/trips/${trip.id}`}>
               {trip.data.title}
               {trip.data.heroImage && (
                 <img
