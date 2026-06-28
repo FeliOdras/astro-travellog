@@ -1,0 +1,33 @@
+---
+import * as yaml from 'js-yaml';
+import path from 'node:path';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  imagesGlob: Record<string, ImageMetadata>;
+  metaYaml: string;
+}
+
+const { imagesGlob, metaYaml } = Astro.props;
+
+const meta = yaml.load(metaYaml) as Record<string, { caption?: string }>;
+
+const images = Object.entries(imagesGlob).map(([file, src]) => {
+  const name = path.basename(file);
+
+  return {
+    src,
+    alt: meta?.[name]?.caption ?? '',
+    caption: meta?.[name]?.caption
+  };
+});
+---
+
+<div>
+  {images.map(({ src: imageSrc, alt, caption }) => (
+    <figure>
+      <img src={imageSrc.src} alt={alt} />
+      {caption && <figcaption>{caption}</figcaption>}
+    </figure>
+  ))}
+</div>
