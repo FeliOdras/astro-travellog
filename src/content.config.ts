@@ -11,9 +11,18 @@ const trips = defineCollection({
 			title: z.string(),
 			description: z.string(),
 			pubDate: z.coerce.date(),
-			updatedDate: z.coerce.date().optional(),
-			heroImage: z.optional(image()),
-			category: z.enum(['hiking', 'cycling', 'other']),
+			distance: z.string().optional(),
+			start: z.string().optional(),
+			end: z.string().optional(),	
+			gpx: z.string().optional(),
+			images: z.array(
+				z.object({
+					file: z.string(),
+					caption: z.string().optional(),
+				})
+			).optional(),
+			heroImage: z.optional(image()).optional(),
+			category: z.enum(['hiking', 'cycling']),
 		}),
 });
 
