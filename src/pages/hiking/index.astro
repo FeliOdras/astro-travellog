@@ -1,0 +1,43 @@
+---
+import { getCollection } from 'astro:content';
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+import BlogPost from '../../layouts/BlogPost.astro';
+
+const hikingTrips = await getCollection('trips', ({ data }) => {
+  return data.category === 'hiking';
+});
+
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+  <body>
+    <Header />
+    <main>
+      <h1>Hiking Trips</h1>
+
+      <ul>
+        {hikingTrips.map((trip) => (
+          <li>
+            <a href={`/trips/${trip.id}`}>
+              {trip.data.title}
+              {trip.data.heroImage && (
+                <img
+                  src={trip.data.heroImage.src}
+                  width={trip.data.heroImage.width}
+                  height={trip.data.heroImage.height}
+                />
+              )}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </main>
+    <Footer />
+  </body>
+</html>
