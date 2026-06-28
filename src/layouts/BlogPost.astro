@@ -24,23 +24,26 @@ const {
 } = data;
 
 
-const metaPath = path.join(
+const imagesGlob =
+  import.meta.glob('/src/content/trips/*/images/*.{jpg,jpeg,png,webp}', {
+    eager: true,
+    import: 'default',
+  }) as Record<string, ImageMetadata>;
+
+const yamlPath = path.join(
   process.cwd(),
   'src/content/trips',
   id,
   'images/images.yml'
 );
 
-const imagesGlob = import.meta.glob(
-  '/src/content/trips/*/images/*.{jpg,jpeg,png,webp}',
-  { eager: true, import: 'default' }
-) as Record<string, ImageMetadata>;
+const rawYaml = fs.existsSync(yamlPath)
+  ? fs.readFileSync(yamlPath, 'utf-8')
+  : null;
 
-const rawYaml = fs.readFileSync(
-  path.join(process.cwd(), 'src/content/trips', id, 'images/images.yml'),
-  'utf-8'
-);
-console.log("Images", imagesGlob);
+const hasImages = Object.keys(imagesGlob).length > 0;
+
+
 ---
 
 <html lang="en">

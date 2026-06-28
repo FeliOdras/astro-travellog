@@ -5,12 +5,16 @@ import type { ImageMetadata } from 'astro';
 
 interface Props {
   imagesGlob: Record<string, ImageMetadata>;
-  metaYaml: string;
+  metaYaml: string|null;
 }
 
 const { imagesGlob, metaYaml } = Astro.props;
 
-const meta = yaml.load(metaYaml) as Record<string, { caption?: string }>;
+
+
+const meta = metaYaml
+  ? (yaml.load(metaYaml) as Record<string, { caption?: string }>)
+  : {};
 
 const images = Object.entries(imagesGlob).map(([file, src]) => {
   const name = path.basename(file);
