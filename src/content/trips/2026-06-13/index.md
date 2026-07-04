@@ -1,6 +1,6 @@
 ---
 title: 'Runde nördlich von Berlin über Hönow und Mehrow'
-description: 'Lorem ipsum dolor sit amet'
+description: 'JWD-Runde nördlich von Berlin'
 pubDate: '13. Juni 2026'
 heroImage: 'image7.jpg'
 distance: '48,2km'
@@ -30,4 +30,4 @@ images:
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Mal so richtig weit raus. Heute der zweite Versuch meiner Hönower Runde, nachdem der erste am Pfingstwochenende wegen einen Plattfußes abgebrochen werden musste. Dieses Mal hat der Schlauch gehalten, ich wurde aber zwischen Hönow und Mehrow von einem kurzen Sommergewitter überrascht. Zum Glück konnte ich unter einer Autobahnbrücke Zuflucht finden, bis der Regen vorüber war. In Mehrow fand gerade ein Dorffest statt. Von dort ging es über Ahrensfelde und Alt-Hohenschönhausen zurück nach Weißensee
