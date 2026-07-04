@@ -9,49 +9,31 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 const cyclingTrips = await getCollection('trips', ({ data }) => {
   return data.category === 'cycling';
 });
-
-
 ---
 
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-	</head>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
   <body>
     <Header />
     <main>
       <h1>Cycling Trips</h1>
 
-      <ul>
-        {cyclingTrips.map((trip) => (
-          console.log(trip.data),
-          <li>
-            <a href={`/astro-travellog/trips/${trip.id}`}>
-              {trip.data.title}
-              {trip.data.heroImage && (
-                <img
-                  src={trip.data.heroImage.src}
-                  width={trip.data.heroImage.width}
-                  height={trip.data.heroImage.height}
-                />
-              )}
-              {trip.data.pubDate && (
-                <time datetime={trip.data.pubDate.toISOString()}>
-                  {trip.data.pubDate.toLocaleDateString()}
-                </time>
-              )}
-            </a>
-          </li>
-          <BlogListItem
-            href={`/astro-travellog/trips/${trip.id}`}
-            heroImgSrc={trip.data.heroImage?.src || ''}
-            heroImgAlt={trip.data.heroImage?.alt || ''}
-            title={trip.data.title}
-            date={trip.data.pubDate?.toLocaleDateString() || ''}
-            distance={trip.data.distance || ''}
-          />
-
-        ))}
+      <ul class="trips-list">
+        {
+          cyclingTrips.map((trip) => (
+            <BlogListItem
+              href={`/astro-travellog/trips/${trip.id}`}
+              heroImgSrc={trip.data.heroImage?.src || ''}
+              heroImgAlt={trip.data.heroImageAlt || ''}
+              title={trip.data.title}
+              date={trip.data.pubDate?.toLocaleDateString() || ''}
+              distance={trip.data.distance || ''}
+              description={trip.data.description || ''}
+            />
+          ))
+        }
       </ul>
     </main>
     <Footer />

@@ -6,25 +6,31 @@ type Props = HTMLAttributes<'li'> & {
   heroImgSrc: string;
   heroImgAlt: string;
   title: string;
-  date: string; 
+  date: string;
   distance: string;
+  description?: string;
 };
 
-const { href, heroImgSrc, heroImgAlt, title, date, distance, ...props } = Astro.props;
+const { href, heroImgSrc, heroImgAlt, title, date, distance, description, ...props } = Astro.props;
 ---
 
 <li class="trips-list-item">
-    <a href="{href}">
-        <img src="{heroImgSrc}" alt="{heroImgAlt}" class="trips-list-item__heroImage" />
-        <h2 class="trips-list-item__title">{ title }</h2>
-    </a>
-    <ul class="trips-list-item__meta">
-        <li class="trips-list-item__meta-item">
-            { date }
-        </li>
+  <a href={href} class="trips-list-item__link">
+    <img src={heroImgSrc} alt={heroImgAlt} class="trips-list-item__heroImage" />
+    <div class="trips-list-item__content">
+      <h2 class="trips-list-item__title">{title}</h2>
+      <p class="trips-list-item__description">
+        {description}
+      </p>
+    </div>
+  </a>
+  <ul class="trips-list-item__meta">
+    <li class="trips-list-item__meta-item">
+      {date}
+    </li>
 
-        <li class="trips-list-item__meta-item">
-            { distance }
-        </li>
-    </ul>
+    <li class="trips-list-item__meta-item">
+      {distance}
+    </li>
+  </ul>
 </li>

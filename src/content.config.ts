@@ -22,6 +22,7 @@ const trips = defineCollection({
 				})
 			).optional(),
 			heroImage: z.optional(image()).optional(),
+			heroImageAlt: z.string().optional(),
 			category: z.enum(['hiking', 'cycling']),
 		}),
 });

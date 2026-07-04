@@ -1,0 +1,65 @@
+.trips-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  &-item {
+    padding: 0 1em;
+
+    &__link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: opacity 0.3s ease-in-out;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &__content {
+      margin-left: -100%;
+      text-align: center;
+      padding-inline: 1rem;
+      padding-block: 1rem;
+      position: relative;
+      background-color: rgba(var(--gray-dark), 0.5);
+      color: rgb(var(--gray-light));
+      transition:
+        background-color 0.3s ease-in-out,
+        color 0.3s ease-in-out;
+
+      .trips-list-item:hover &,
+      .trips-list-item:focus &,
+      .trips-list-item:active & {
+        background-color: rgba(var(--gray-light), 0.5);
+        color: rgb(var(--gray-dark));
+      }
+    }
+
+    &__title {
+      color: rgb(var(--gray-light));
+      transition: color 0.3s ease-in-out;
+
+      .trips-list-item:hover &,
+      .trips-list-item:focus &,
+      .trips-list-item:active & {
+        color: rgb(var(--gray-dark));
+      }
+    }
+
+    &__heroImage {
+      object-fit: cover;
+      border-radius: 0.5rem;
+      aspect-ratio: 16/9;
+      opacity: 0.8;
+
+      .trips-list-item:hover &,
+      .trips-list-item:focus &,
+      .trips-list-item:active & {
+        opacity: 1;
+      }
+    }
+  }
+}
