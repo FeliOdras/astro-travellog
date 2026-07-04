@@ -3,7 +3,7 @@ title: 'Runde von Weißensee über Grünau und Köpenik'
 description: 'Stadtrunde nach Südost-Berlin'
 pubDate: '3. Juli 2026'
 heroImage: 'IMG_20260704_115310.jpg'
-distance: '67km
+distance: '67km'
 start: 'Berlin-Weissensee'
 end: 'Berlin-Weissensee'
 gpx: 'route.gpx'
