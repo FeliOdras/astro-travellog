@@ -3,12 +3,13 @@ import { getCollection } from 'astro:content';
 import BaseHead from '../../components/BaseHead.astro';
 import Footer from '../../components/Footer.astro';
 import Header from '../../components/Header.astro';
+import BlogListItem from '../../components/BlogpostListItem.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
-import BlogPost from '../../layouts/BlogPost.astro';
 
 const cyclingTrips = await getCollection('trips', ({ data }) => {
   return data.category === 'cycling';
 });
+
 
 ---
 
@@ -23,6 +24,7 @@ const cyclingTrips = await getCollection('trips', ({ data }) => {
 
       <ul>
         {cyclingTrips.map((trip) => (
+          console.log(trip.data),
           <li>
             <a href={`/astro-travellog/trips/${trip.id}`}>
               {trip.data.title}
@@ -33,14 +35,24 @@ const cyclingTrips = await getCollection('trips', ({ data }) => {
                   height={trip.data.heroImage.height}
                 />
               )}
+              {trip.data.pubDate && (
+                <time datetime={trip.data.pubDate.toISOString()}>
+                  {trip.data.pubDate.toLocaleDateString()}
+                </time>
+              )}
             </a>
           </li>
+          <BlogListItem
+            href={`/astro-travellog/trips/${trip.id}`}
+            heroImgSrc={trip.data.heroImage?.src || ''}
+            heroImgAlt={trip.data.heroImage?.alt || ''}
+            title={trip.data.title}
+            date={trip.data.pubDate?.toLocaleDateString() || ''}
+            distance={trip.data.distance || ''}
+          />
+
         ))}
       </ul>
-
-      <!-- <BlogPost {...hikingTrips}>
-        <Content />
-      </BlogPost> -->
     </main>
     <Footer />
   </body>

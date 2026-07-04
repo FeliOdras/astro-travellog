@@ -1,0 +1,30 @@
+---
+import type { HTMLAttributes } from '../../node_modules/astro/types';
+
+type Props = HTMLAttributes<'li'> & {
+  href: string;
+  heroImgSrc: string;
+  heroImgAlt: string;
+  title: string;
+  date: string; 
+  distance: string;
+};
+
+const { href, heroImgSrc, heroImgAlt, title, date, distance, ...props } = Astro.props;
+---
+
+<li class="trips-list-item">
+    <a href="{href}">
+        <img src="{heroImgSrc}" alt="{heroImgAlt}" class="trips-list-item__heroImage" />
+        <h2 class="trips-list-item__title">{ title }</h2>
+    </a>
+    <ul class="trips-list-item__meta">
+        <li class="trips-list-item__meta-item">
+            { date }
+        </li>
+
+        <li class="trips-list-item__meta-item">
+            { distance }
+        </li>
+    </ul>
+</li>
