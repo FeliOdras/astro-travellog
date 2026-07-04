@@ -6,9 +6,11 @@ import Header from '../../components/Header.astro';
 import BlogListItem from '../../components/BlogpostListItem.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
 
-const cyclingTrips = await getCollection('trips', ({ data }) => {
-  return data.category === 'cycling';
-});
+const cyclingTrips = (
+  await getCollection('trips', ({ data }) => {
+    return data.category === 'cycling';
+  })
+).sort((a: any, b: any) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <html lang="en">
