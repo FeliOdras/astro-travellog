@@ -1,5 +1,5 @@
 ---
-title: 'Runde von Weißensee über Grünau und Köpenik'
+title: 'Runde von Weißensee über Grünau und Köpenick'
 description: 'Stadtrunde nach Südost-Berlin'
 pubDate: '3. Juli 2026'
 heroImage: 'IMG_20260704_115310.jpg'
