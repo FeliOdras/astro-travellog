@@ -1,7 +1,7 @@
 ---
 title: 'Runde von Weißensee über Grünau und Köpenick'
 description: 'Stadtrunde nach Südost-Berlin'
-pubDate: '3. Juli 2026'
+pubDate: '4. Juli 2026'
 heroImage: 'IMG_20260704_115310.jpg'
 heroImageAlt: 'Fahrrad auf der Dahme-Fähre F12 zwischen Grünau und Köpenick'
 distance: '67km'
