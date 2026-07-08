@@ -2,11 +2,11 @@
 title: 'Oberhavelland von Frohnau über Sachsenhausen nach Mitte'
 description: 'JWD-Tour im Landkreis Oberhavel'
 pubDate: '5. Juli 2026'
-heroImage: 'IMG_20260704_115310.jpg'
-heroImageAlt: 'Fahrrad auf der Dahme-Fähre F12 zwischen Grünau und Köpenick'
-distance: '67km'
-start: 'Berlin-Weissensee'
-end: 'Berlin-Weissensee'
+heroImage: 'IMG_20260705_150613.jpg'
+heroImageAlt: 'Radrouten-Wegweiser in Marwitz'
+distance: '82km'
+start: 'Berlin-Frohnau'
+end: 'Berlin-Mitte'
 gpx: 'route.gpx'
 category: 'cycling'
 images: 
@@ -18,19 +18,23 @@ images:
     caption: Das Oberhavelland überzeugt durch seine gute Radinfrastruktur
   - file: IMG_20260705_143816.jpg 
     caption: Feldweg nach Bärenklau
-  - file: IMG_20260704_115031.jpg 
-    caption: Fährfahrt über die Dahme mit der BVG 
-  - file: IMG_20260704_115310.jpg
-  - file: IMG_20260704_122609.jpg
-    caption: Kleine Stärkung in der Köpenicker Altstadt
-  - file: IMG_20260704_124756.jpg
-    caption: Dahme-Blick in Köpenick 
-  - file: IMG_20260704_132148.jpg 
-    caption: Durch die Wuhlheide
-  - file: IMG_20260704_151640.jpg
-    caption: Pause am Malchower Teich
-  - file: IMG_20260704_151640.jpg
-    caption: Pause am Malchower Teich
+  - file: IMG_20260705_145121.jpg 
+    caption: Ein Bahnhof im Fast-Nirgendwo 
+  - file: IMG_20260705_145731.jpg
+    caption: Brandenburgisches Panorama
+  - file: IMG_20260705_150613.jpg
+    caption: Viele Wege in Marwitz
+  - file: IMG_20260705_152147.jpg
+    caption: "Nimm dir Essen mit, wir fahr'n nach Brandenburg
+  - file: IMG_20260705_163319.jpg
+    caption: Wo sich Tegeler See und Havel begegnen
+  - file: IMG_20260705_165028.jpg
+    caption: Süße Begrüßung in Spandau
+  - file: IMG_20260705_181332.jpg
+    caption: Invalidenfriedhof am Mauerweg
+  - file: IMG_20260705_181823.jpg
+    caption: Schöne Fahrradstraße am Hauptbahnhof
 ---
-Eigentlich sollte diese Runde mit einem Besuch bei einem Kunpel und Kollegen, welcher derzeit mit seinem Boot in Berlin vor Anker liegt, doch leider musste das Treffen verletzungsbedingt ausfallen. Nichtsdestotrotz hat sich die Tour gelohnt. Es ging zunächst von Weißensee nach Treptow, dann durch den Treptower Park und über einen Teil des Berliner Mauerweges zum BVG-Fähranleger in Grünau. Mit der Fähre über die Dahme ging es dann weiter Richtung Altstadt Köpenick und durch die Wuhlheide und die andere Seite des Treptower Parks weiter in Richtung Innenstadt und dann über einen Schlenker über Malchow und Heinersdorf zurück nach Weißensee.
+Mit der S-Bahn nach Frohnau und von dort weiter über Birkenwerder nach Oranienburg. Entlang des Lehnitzsees führt ein Teil des Fernradweges Berlin-Kopenhagen. Gut ausgebaute Radwege, ruhige, nahezu autofreie Straßen und ein bisschen Abenteuer über urige Feldwege durch brandenburgische Dorfidyllen. 
+Zurück in die Stadt über den Mauerweg via Hohen Neuendorf und Spandau und weiter entlang des Berlin-Spandau Schifffahrtskanals bis zur c-base in Mitte. 
 
