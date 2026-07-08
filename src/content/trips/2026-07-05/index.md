@@ -25,7 +25,7 @@ images:
   - file: IMG_20260705_150613.jpg
     caption: Viele Wege in Marwitz
   - file: IMG_20260705_152147.jpg
-    caption: "Nimm dir Essen mit, wir fahr'n nach Brandenburg
+    caption: "Nimm dir Essen mit, wir fahr'n nach Brandenburg"
   - file: IMG_20260705_163319.jpg
     caption: Wo sich Tegeler See und Havel begegnen
   - file: IMG_20260705_165028.jpg
