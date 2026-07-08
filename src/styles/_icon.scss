@@ -1,0 +1,26 @@
+.icon {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1em;
+
+  &__wrapper {
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    line-height: 1;
+    vertical-align: middle;
+  }
+
+  &-text {
+    &__container {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.25rem 0.5rem;
+
+      &:not(:last-child) {
+        border-right: 1px solid #ccc;
+      }
+    }
+  }
+}
