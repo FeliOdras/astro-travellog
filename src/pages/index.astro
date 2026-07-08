@@ -6,7 +6,9 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 import { getCollection } from 'astro:content';
 import BlogListItem from '../components/BlogpostListItem.astro';
 
-const posts = await getCollection('trips');
+const posts = (await getCollection('trips')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
 ---
 
 <!doctype html>
