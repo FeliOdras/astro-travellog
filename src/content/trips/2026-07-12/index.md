@@ -13,7 +13,7 @@ images:
   - file: IMG_20260712_151706.jpg
     caption: Graugänse auf einem Teich bei Rudow
   - file: IMG_20260712_153213.jpg
-    caption: Picknickplatz mit Büschen ujd Sträuchern
+    caption: Picknickplatz mit Büschen und Sträuchern
   - file: IMG_20260712_153857.jpg
     caption: Feldsteinmeer
 
