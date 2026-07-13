@@ -54,6 +54,17 @@ const allImages = import.meta.glob<ImageMetadata>('/src/content/trips/**/*.jpg',
 const imagesGlob = Object.fromEntries(
   Object.entries(allImages).filter(([file]) => file.includes(`/${id}/`))
 ) as Record<string, ImageMetadata>;
+
+const allGpx = import.meta.glob<string>(
+  '/src/content/trips/**/route.gpx',
+  {
+    eager: true,
+    query: '?url',
+    import: 'default',
+  }
+);
+
+const gpxUrl = allGpx[`/src/content/trips/${id}/route.gpx`];
 ---
 
 <html lang="de">
@@ -106,7 +117,16 @@ const imagesGlob = Object.fromEntries(
           <hr />
 
           <div class="icon__wrapper"><Gpx /></div> &nbsp;
-          <a href="route.gpx" target="_blank" download rel="noopener noreferrer">GPX-Datei</a>
+          {
+  gpxUrl && (
+    <>
+      <div class="icon__wrapper"><Gpx /></div>&nbsp;
+      <a href={gpxUrl} download rel="noopener noreferrer">
+        GPX-Datei
+      </a>
+    </>
+  )
+}
 
           <slot />
 
