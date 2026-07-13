@@ -1,5 +1,5 @@
 ---
-title: 'Südöstler Teil des Mauerweges'
+title: 'Südöstlicher Teil des Mauerweges'
 description: ''
 pubDate: '12. Juli 2026'
 heroImage: 'IMG_20260712_151706.jpg'
