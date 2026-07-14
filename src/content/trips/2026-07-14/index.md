@@ -18,16 +18,18 @@ images:
     caption: Kanupolo-Feld des Kanusportvereins Spandau
   - file: IMG_20260714_105231.jpg
     caption: Erster Stopp in Hennigsdorf
-  - file: IMG_20260704_115031.jpg 
-    caption: Fährfahrt über die Dahme mit der BVG 
-  - file: IMG_20260704_115310.jpg
-  - file: IMG_20260704_122609.jpg
-    caption: Kleine Stärkung in der Köpenicker Altstadt
-  - file: IMG_20260704_124756.jpg
-    caption: Dahme-Blick in Köpenick 
-  - file: IMG_20260704_132148.jpg 
-    caption: Durch die Wuhlheide
-  - file: IMG_20260704_151640.jpg
-    caption: Pause am Malchower Teich
+  - file: IMG_20260714_124420.jpg 
+    caption: Dysfunktionaler Radweg in Borgsdorf
+  - file: IMG_20260714_132130.jpg
+    caption: Natur und Industriekultur nördlich von Oranienburg
+  - file: IMG_20260714_150356.jpg
+    caption: Finowkanal in Liebenwalde
+  - file: IMG_20260714_154806.jpg
+    caption: Meine Unterkunft in der Pension Hesselbarth
+  - file: IMG_20260714_154816.jpg
+  - file: IMG_20260714_185448.jpg
+    caption: Der Ortsteil Hammer von Liebenwalde liegt zwischen dem Wutzsee...
+  - file: IMG_20260714_191708.jpg
+    caption: ...und dem Kuhpatzsee - mit privatem Zugang von der Persion aus.
 ---
-Eigentlich sollte diese Runde mit einem Besuch bei einem Kumpel und Kollegen, welcher derzeit mit seinem Boot in Berlin vor Anker liegt, doch leider musste das Treffen verletzungsbedingt ausfallen. Nichtsdestotrotz hat sich die Tour gelohnt. Es ging zunächst von Weißensee nach Treptow, dann durch den Treptower Park und über einen Teil des Berliner Mauerweges zum BVG-Fähranleger in Grünau. Mit der Fähre über die Dahme ging es dann weiter Richtung Altstadt Köpenick und durch die Wuhlheide und die andere Seite des Treptower Parks weiter in Richtung Innenstadt und dann über einen Schlenker über Malchow und Heinersdorf zurück nach Weißensee.
+Die erste Etappe meiner viertägigen Radreise nach Mecklenburg führte zunächst vom Jungfernheide über den Havelradweg und den Berliner Mauerweg bis Hennigsdorf. Von dort ging es weiter Richtung Norden über Birkenwerder und Oranienburg bis Liebenwalde. Im Ortteil Hammer zwischen Wutz- und Kuhpatzsee habe ich in der Pension Hesselbarth Quartier bezogen.
