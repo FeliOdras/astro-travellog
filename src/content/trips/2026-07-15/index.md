@@ -27,7 +27,7 @@ images:
   - file: IMG_20260715_150415.jpg
     caption: Der Yachthafen in Fürstenberg
   - file: IMG_20260715_170233.jpg
-    caption: Mein Domizil: die kleine Hütte auf dem Campingplatz Havelperle in Priepert
+    caption: Mein Domizil - die kleine Hütte auf dem Campingplatz Havelperle in Priepert
   - file: IMG_20260715_170246.jpg
     caption: Auch innen sehr gemütlich
   - file: IMG_20260715_183447.jpg
