@@ -1,5 +1,5 @@
 ---
-title: 'Von Priepert nach Waren'
+title: 'Von Priepert nach Waren an der Müritz'
 description: '4-Tages-Tour von Berlin nach Mecklenburg'
 pubDate: '16. Juli 2026'
 heroImage: 'IMG_20260716_093406.jpg'
