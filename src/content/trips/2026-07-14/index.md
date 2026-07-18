@@ -27,6 +27,7 @@ images:
   - file: IMG_20260714_154806.jpg
     caption: Meine Unterkunft in der Pension Hesselbarth
   - file: IMG_20260714_154816.jpg
+    caption: Die ersten Mirabellen sind auch schon reif
   - file: IMG_20260714_185448.jpg
     caption: Der Ortsteil Hammer von Liebenwalde liegt zwischen dem Wutzsee...
   - file: IMG_20260714_191708.jpg
