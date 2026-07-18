@@ -21,7 +21,7 @@ images:
   - file: IMG_20260715_110810.jpg
     caption: Der alte Fährhafen in Burgwall/Zehdenick
   - file: IMG_20260715_140616.jpg
-    caption: Santas Thron in Himmelfort
+    caption: Santas Thron in Himmelpfort
   - file: IMG_20260715_140252.jpg
     caption: Kaffee und Kuchen im Weihnachtshaus
   - file: IMG_20260715_150415.jpg
