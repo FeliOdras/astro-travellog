@@ -9,7 +9,7 @@ start: 'Waren an der Müritz'
 end: 'Mühl-Rosin'
 gpx: 'route.gpx'
 category: 'cycling'
-images: 
+images:
   - file: IMG_20260717_083121.jpg
     caption: Morgenstimmung an der Müritz
   - file: IMG_20260717_085600.jpg
@@ -24,7 +24,7 @@ images:
     caption: Schöner Blick zwischen Bornkrug und Linstow
   - file: IMG_20260717_124028.jpg
     caption: Das Scottish Highland Kälbchen Oskar in Linstow
-  - file: IMG_20260717_132125.jpg
+  - file: IMG_20260717_131825.jpg
     caption: Rast- und Aussichtspunkt "Reuters Paradiesgartenblick" zwischen Dobbin und Serrahn
   - file: IMG_20260717_131953.jpg
     caption: Mit einer wahrlich paradiesischen Aussicht auf den Krakower See
@@ -37,8 +37,9 @@ images:
   - file: IMG_20260717_174344.jpg
     caption: Blick auf Mühl-Rosin vom Fuchsberg
 ---
+
 Die finale Etappe meiner Tour. Von Waren aus ging es über viele kleine Orte, die ich schon aus meiner Kindheit kenne. Am Naturpark Nossentiner/Schwinzer Heide vorbei gibg es in Richtung Krakow am See. Der Fernradweg über Dobbin und Serrahn besticht durch schöne Aussichten auf den Krakower See und einladende Rastplätze. Nach einer kleinen Kaffeepause bei meiner Tante ging es weiter nach Mühl-Rosin.
 
-Die Route über Alt-Sammit, Reimershagen und Bellin kenne ich bereits von Radtouren mit Familie und Freunden aus meinen Kindheitstagen. Im Vergleich zu damals sind einige Wege heute aber deutlich besser befestigt und befahrbar. 
+Die Route über Alt-Sammit, Reimershagen und Bellin kenne ich bereits von Radtouren mit Familie und Freunden aus meinen Kindheitstagen. Im Vergleich zu damals sind einige Wege heute aber deutlich besser befestigt und befahrbar.
 
 Der letzte Streckenabschnitt meiner Reise führte über den Belliner Landweg, statt über Kirch-Rosin habe ich hier aber den direkten Weg über den Fuchsberg zu meinem Elternhaus genommen.
