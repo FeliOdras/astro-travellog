@@ -19,8 +19,8 @@
     }
 
     &__content {
-      margin-left: calc(-100% + 3rem);
-      width: calc(100% - 5rem);
+      margin-left: calc(-100% + 2rem);
+      width: calc(100% - 2rem);
       text-align: center;
       padding-inline: 1rem;
       padding-block: 1rem;
@@ -30,6 +30,11 @@
       transition:
         background-color 0.3s ease-in-out,
         color 0.3s ease-in-out;
+
+      @media screen and (min-width: 720px) {
+        width: calc(100% - 5rem);
+        margin-left: calc(-100% + 3rem);
+      }
 
       .trips-list-item:hover &,
       .trips-list-item:focus &,
