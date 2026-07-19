@@ -7,11 +7,11 @@
   gap: 1.5rem;
 
   &-item {
-    padding: 0 1em;
+    padding: 0 1.5rem;
+    width: calc(100% - 3rem);
 
     &__link {
       display: flex;
-      justify-content: center;
       align-items: center;
       transition: opacity 0.3s ease-in-out;
       text-decoration: none;
@@ -19,7 +19,8 @@
     }
 
     &__content {
-      margin-left: -100%;
+      margin-left: calc(-100% + 3rem);
+      width: calc(100% - 5rem);
       text-align: center;
       padding-inline: 1rem;
       padding-block: 1rem;
@@ -52,8 +53,13 @@
     &__heroImage {
       object-fit: cover;
       border-radius: 0.5rem;
-      aspect-ratio: 16/9;
+      aspect-ratio: 1/1;
       opacity: 0.8;
+      width: calc(100% - 3rem);
+
+      @media screen and (min-width: 720px) {
+        aspect-ratio: 16/9;
+      }
 
       .trips-list-item:hover &,
       .trips-list-item:focus &,
